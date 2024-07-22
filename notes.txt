@@ -1,0 +1,20 @@
+to start, use
+
+    terraform init
+
+to show what resources that will be deployed, use
+
+    terraform plan
+
+at this point, you can still make changes and run terraform init again.
+
+to apply, use
+
+    terraform apply
+
+to run this, we need tvars file.
+1. add new .tvars file to infra folder
+2. add this code below:
+gcp_svc_key = "../<your_key>.json"
+gcp_project = "<your_gcp_project>"
+gcp_region = "asia-southeast2" #my preferred region
