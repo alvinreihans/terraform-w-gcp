@@ -1,5 +1,6 @@
-to start, use
+to start, go to infra and then run terraform init
 
+    cd infra
     terraform init
 
 to show what resources that will be deployed, use
